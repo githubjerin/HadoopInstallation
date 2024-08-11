@@ -43,11 +43,11 @@
 - verify this by `java -version` and `hadoop -version` in cmd.
 
 ### Additional Packages
-- Download the `bin.zip` from this repository.
+- Download the `HadoopIObinary.zip` from this repository.
 - Extract it and paste it in `%HADOOP_HOME%\bin`
 - Open and run `winutils.exe` from `%HADOOP_HOME%\bin`
 
-## Configuration
+## Configure Hadoop
 
 Now we are ready to configure the most important part - Hadoop configurations which involves Core, YARN, MapReduce, HDFS configurations. 
 
@@ -172,4 +172,4 @@ Run the following command in an elevated Command Prompt window (Run as administr
 ```
 
 Similarly two Command Prompt windows will open: one for resource manager and another for node manager **DONOT CLOSE THESE WINDOWS**
-- Verify Hadoop Resource manager by opening `http://localhost:8088` in you browser.
+Verify Hadoop Resource manager by opening `http://localhost:8088` in you browser.
